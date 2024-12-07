@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sigmar&family=Sigmar+One&display=swap');
+
+
+* {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo);
+}
+
+:root {
+    --cor-principal: #ff8800;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #000000;
+    --cor-quaternaria: #f3a546;
+    --cor-de-fundo: hwb(30 75% 0%);
+    --fonte-principal: "Sigmar One", sans-serif;
+    --fonte-secundaria: "Sigmar", sans-serif;
+
+}
+
+
+/* NAVEGAÇÃO */
+
+
+.navegacao {
+    background-color: var(--cor-secundaria);
+    padding: 9px;
+}
+
+ .navegacao__lista {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+} 
+
+.navegacao__lista a {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+    text-decoration: none;
+    display: flex;
+    font-family: var(--fonte-principal);
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.navegacao__lista a:hover {
+    background-color: var(--cor-quaternaria);
+    color: var(--cor-secundaria);
+
+}
+
+.amor__titulo {
+    text-align: center;
+    font-family: var(--fonte-principal);
+    color: var(--cor-principal);
+    margin: 90px 0px;
+    padding: 0px 100px;
+    font-size: 50px;
+}
+
+.amor__titulo__musica {
+    text-align: center;
+    font-family: var(--fonte-principal);
+    color: var(--cor-principal);
+    margin: 90px 0px;
+    padding: 0px 100px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.amor__musica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-principal);
+    flex-direction: column;
+    font-size: 20px;
+    margin: 30px 0px;
+    padding: 0px 100px;
+}
+
+.musica__link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-principal);
+    color: var(--cor-principal);
+    font-size: 20px;
+    margin: 90px 0px;
+    padding: 0px 100px;
+   
+}
+
+.musica__link:hover {
+    text-decoration: underline;
+}
+
+.amor__link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-principal);
+    color: var(--cor-principal);
+    font-size: 20px;
+    margin: 10px 0px;
+    padding: 0px 100px;
+   
+}
+
+.amor__link:hover {
+    text-decoration: underline;
+}
